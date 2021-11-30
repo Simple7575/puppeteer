@@ -9,7 +9,6 @@
     "node": ">=10.18.1"
   },
   "scripts": {
-    "postinstall": "cd ./node_modules/puppeteer && npm install && npm run build",
     "test-browser": "wtr",
     "test-browser-watch": "wtr --watch",
     "unit": "npm run tsc-cjs && mocha --config mocha-config/puppeteer-unit-tests.js",
